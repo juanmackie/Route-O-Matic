@@ -1,0 +1,5 @@
+app_name,address,visitdurationMinutes,startTime,date,flexibility
+John's Home,123 Main St Sydney NSW 2000,30,09:00,2025-12-01,inflexible
+Sarah's Office,456 George St Sydney NSW 2000,45,flexible,2025-12-01,flexible
+Mike's Place,789 Pitt St Sydney NSW 2000,20,14:00,2025-12-01,inflexible
+Emma's Shop,321 Elizabeth St Sydney NSW 2000,30,flexible,2025-12-01,flexible

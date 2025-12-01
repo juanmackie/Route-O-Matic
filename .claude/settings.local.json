@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(dir /s /b:*)",
+      "Bash(findstr:*)",
+      "Bash(dir public)",
+      "Bash(if:*)",
+      "Bash(npx ts-node reproduce_error_report.ts:*)",
+      "Bash(node -e \"\nconst fs = require(''fs'');\nconst csvContent = \\`app_name,address,visitdurationMinutes,startTime,date,flexibility\nGood Appt,123 Main St,45,06:00,2024-01-01,flexible\nBad Duration,456 Elm St,invalid,10:00,2024-01-01,inflexible\nBad Time,789 Oak St,60,25:00,2024-01-01,flexible\nMissing Date,321 Pine St,45,11:00,,flexible\n\\`;\n\nconsole.log(''Testing CSV with valid values: 45 minutes and 06:00 time'');\nconsole.log(''CSV Content:'');\nconsole.log(csvContent);\n\")",
+      "Bash(curl:*)",
+      "Bash(find:*)",
+      "Bash(del:*)",
+      "Bash(npm run type-check)",
+      "Bash(cat:*)",
+      "Bash(npx tsc:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
